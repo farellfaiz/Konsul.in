@@ -1,0 +1,132 @@
+html, body{
+    width: 100%;
+    margin: 0;
+    background: #000000;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 50%;
+}
+
+#logo{
+    width: 346px;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 50px 10px 50px;
+
+}
+
+#navbarTitle{
+    display: flex;
+    flex-direction: row;
+}
+
+#navbarmenu{
+    
+}
+
+#menulist{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-family:Roboto;
+    padding: 0px;
+    justify-content: space-around;
+    color: whitesmoke;
+    user-select: none;
+}
+
+#menulist>ul{
+    padding: 0;
+}
+
+#menulist>ul:not(:first-child)::before{
+    content: "|";
+    padding: 0 40px;
+}
+
+#content{
+    margin-left: 70px;
+}
+
+#searchbar{
+    border-radius: 10px;
+    width: 471px;
+    height: 2rem;
+
+}
+
+#Vector2{
+    position: absolute;
+    width: 877px;
+    height: 491px;
+    right: 0;
+    bottom: 0;
+}
+
+#Vector3{
+    position: absolute;
+    width: 924px;
+    height: 513px;
+    right: 0;
+    bottom: 0;
+}
+
+#Vector4{
+    position: absolute;
+    width: 963px;
+    height: 526px;
+    right: 0;
+    bottom: 0;
+}
+
+#Vector5{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    width: 877px;
+    height: 491px;
+}
+
+#Elipse10{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: -89px;
+    top: 531px;
+}
+
+#Elipse10_2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1363px;
+    top: 49px;
+}
+
+#Elipse11{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1330px;
+    top: -95px;
+}
+
+#Elipse12{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: -134px;
+    top: 409px;
+
+}
