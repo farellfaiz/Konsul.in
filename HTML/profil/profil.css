@@ -40,7 +40,8 @@ body{
 }
 
 .box_nav{
-    margin-left: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 20px;
 }
 
